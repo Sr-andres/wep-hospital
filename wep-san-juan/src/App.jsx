@@ -7,6 +7,7 @@ import Stafin from "./pages/stafin";
 import Contra from "./pages/contra";
 import Cuentas from "./pages/cuentas";
 import Puesto from "./pages/puesto";
+import Servicess from "./pages/servicios/general";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/contra" element={<Contra />} />
         <Route path="/cuentas" element={<Cuentas />} />
         <Route path="/puesto" element={<Puesto />} />
+        <Route path="/servicess" element={<Servicess />} />
       </Routes>
     </Router>
   );
