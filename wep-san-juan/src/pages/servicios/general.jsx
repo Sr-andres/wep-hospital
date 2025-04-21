@@ -7,7 +7,7 @@ const General = () => {
         <div>
             <div className="sidebar">
                 <ul>
-                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/"><img className='logoo' src="../src/assets/logo.jpg" alt="" /></a></li>
                     <li><a href="/servicios">Servicios</a></li>
                 </ul>
             </div>
@@ -19,7 +19,7 @@ const General = () => {
                             alt="imagen medicina general" />
                     </div>
                     <div>
-                        <h1 className='title-gene'>MEDICINA GENERAL</h1>
+                        <h1 className='title-gene'>MEDICINA GENERAL 👨‍⚕️.</h1>
                         <div className="content">
                             <p>En nuestro servicio de Medicina General, brindamos atención médica de alta calidad a nuestros pacientes hospitalizados,
                                 garantizando su seguridad, comodidad y bienestar en todo momento. Contamos con un equipo multidisciplinario que incluye médicos generales,
@@ -32,19 +32,19 @@ const General = () => {
                 </div>
                 <div className="info">
                     <div>
-                        <strong>Hospitalización</strong>
+                        <strong>Hospitalización🏥</strong>
                         <p>Brindamos una atención médica y cuidados de alta calidad a nuestros pacientes hospitalizados.</p>
                     </div>
                     <div>
-                        <strong>Vacunación</strong>
+                        <strong>Vacunación💉</strong>
                         <p>Servicio el cual otorga acceso a las vacunas y a tener un control sobre ellas.</p>
                     </div>
                     <div>
-                        <strong>Enfermería</strong>
+                        <strong>Enfermería👩‍⚕️</strong>
                         <p>Brindamos atención y cuidados por una enfermera capacitada.</p>
                     </div>
                     <div>
-                        <strong>Psicología</strong>
+                        <strong>Psicología🧠</strong>
                         <p>Brindamos una atención psicológica de calidad,
                             respetuosa y confidencial, para ayudar a las personas a mejorar su bienestar emocional y mental.</p>
                     </div>

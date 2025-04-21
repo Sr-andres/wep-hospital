@@ -4,13 +4,13 @@ import InstitutoCard from "../components/InstitutoCard";
 const Servicios = () => {
   const institutos = [
     { title: "Medicina General", image: "../src/assets/general.jpg", link: "/servicess" },
-    { title: "Odontología", image: "../src/assets/odontologia.jpeg", link: "#" },
-    { title: "Laboratorio Clínico", image: "../src/assets/prueba.jpg", link: "#" },
-    { title: "Servicio Farmacéutico", image: "../src/assets/farmacia.jpg", link: "#" },
-    { title: "Atención al parto", image: "../src/assets/parto.png", link: "#" },
-    { title: "Transporte asistencial básico", image: "../src/assets/prueba.jpg", link: "#" },
-    { title: "Urgencias", image: "../src/assets/prueba.jpg", link: "#" },
-    { title: "Fisioterapia", image: "../src/assets/fisioterapia.jpeg", link: "#" },
+    { title: "Odontología", image: "../src/assets/odontologia.jpeg", link: "/odontologia" },
+    { title: "Laboratorio Clínico", image: "../src/assets/prueba.jpg", link: "/laboratorio" },
+    { title: "Servicio Farmacéutico", image: "../src/assets/farmacia.jpg", link: "/farmacia" },
+    { title: "Atención al parto", image: "../src/assets/parto.png", link: "/parto" },
+    { title: "Transporte asistencial básico", image: "../src/assets/ambulancia 3.jpg", link: "/ambulancia" },
+    { title: "Urgencias", image: "../src/assets/prueba.jpg", link: "/urgencias" },
+      { title: "Fisioterapia", image: "../src/assets/fisioterapia.jpeg", link: "/terapia" },
   ];
 
   return (

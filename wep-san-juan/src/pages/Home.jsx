@@ -1,6 +1,6 @@
 import '../pages/css/home.css';
 import { Link } from "react-router-dom";
-import { FaFacebookF, FaInstagram, FaTwitter, FaMapMarkerAlt, FaPhoneAlt, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaMapMarkerAlt, FaPhoneAlt, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import { useState } from 'react';
 
 
@@ -9,7 +9,7 @@ const Home = () => {
   const MovNav = useState(false);
 
 
-  
+
   return (
     <div>
       <div className="header-container">
@@ -83,7 +83,7 @@ const Home = () => {
                 <br />
                 A partir de enero 1° de 2000, recibe certificación por parte de la Gobernación de Santander como entidad descentralizada del orden
                 Municipal, de acuerdo al Decreto 0371 de diciembre 29 de 2000, emanado de la Gobernación de Santander, una vez fue transformado en
-                Empresa Social del Estado, mediante decreto municipal N° 016 de noviembre 26 de 1998. 
+                Empresa Social del Estado, mediante decreto municipal N° 016 de noviembre 26 de 1998.
                 <br />
                 <br />
                 Su área de influencia, es el municipio de
@@ -100,52 +100,61 @@ const Home = () => {
         </div>
 
         <div className='container-mision'>
-        
+
           <img className='img-mision' src="https://hospitalbetulia.com/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-24-at-6.33.32-PM-e1729869259365-1006x1024.jpeg" alt="imagen del la mision" />
           <div id='misioncontainer'>
-          <h1 className='title-img'>
-            Mision
-          </h1>
-          <p className='ee'>
-            Somos una entidad de salud de carácter público prestadora de servicios de salud de baja complejidad que busca brindar la cobertura necesaria de todos nuestros usuarios,
-            mediante la prestación de servicios a la población de Betulia, garantizando el mantenimiento de la salud, la recuperación óptima e integral de la enfermedad en concomitancia
-            con el mejoramiento de la Calidad de vida, con criterios de integridad, humanidad y eficiencia.
-          </p>
+            <h1 className='title-img'>
+              Mision
+            </h1>
+            <p className='ee'>
+              Somos una entidad de salud de carácter público prestadora de servicios de salud de baja complejidad que busca brindar la cobertura necesaria de todos nuestros usuarios,
+              mediante la prestación de servicios a la población de Betulia, garantizando el mantenimiento de la salud, la recuperación óptima e integral de la enfermedad en concomitancia
+              con el mejoramiento de la Calidad de vida, con criterios de integridad, humanidad y eficiencia.
+            </p>
           </div>
-        
+
         </div>
         <div className='container-vision'>
-        <img className='img-personal-hospital' src="https://hospitalbetulia.com/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-24-at-6.33.54-PM-1024x768.jpeg" alt="imagen del la vision" />
-        <div className='visioncontainer'>
-          <h1 className='title-img'>
-            Vision
-          </h1>
-         <p className='ee'>
-            La institución busca generar para el 2024-2028, mejores condiciones y calidad de salud para la población betuliana, como Empresa líder del sector salud de baja complejidad de atención,
-            iniciando un nuevo proceso donde el recurso humano, técnico y de infraestructura, disfrutando de nuevos programas con énfasis en la promoción de salud, prevención en las enfermedades y
-            ayudas imagenológicas.
-          </p>
+          <img className='img-personal-hospital' src="https://hospitalbetulia.com/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-24-at-6.33.54-PM-1024x768.jpeg" alt="imagen del la vision" />
+          <div className='visioncontainer'>
+            <h1 className='title-img'>
+              Vision
+            </h1>
+            <p className='ee'>
+              La institución busca generar para el 2024-2028, mejores condiciones y calidad de salud para la población betuliana, como Empresa líder del sector salud de baja complejidad de atención,
+              iniciando un nuevo proceso donde el recurso humano, técnico y de infraestructura, disfrutando de nuevos programas con énfasis en la promoción de salud, prevención en las enfermedades y
+              ayudas imagenológicas.
+            </p>
+          </div>
         </div>
-        </div>
-        
+
       </div>
       <footer className="footer-container">
         <div className="footer-links">
-          <div>
-            <h3 className='footer-title'>Enlaces de Interés</h3>
-            <ul className='lis-footer'>
-              <li><p className='lis-footer' href="#">nn</p></li>
-              <li><a className='ll' href="https://www.linkedin.com/in/andres-sanabria-9b2749189/" target="_blank">Provedor</a></li>
-
-            </ul>
-          </div>
           <div className='footer-contact'>
             <h3>Contacto</h3>
             <div>
-              <p><FaPhoneAlt />+57 3124174338</p>
+              <p><FaWhatsapp />
+              <a
+                className='qw'
+                href='https://api.whatsapp.com/send?phone=+573124174338&text=Hola%2C+'
+                target="_blank"
+              >+57 3124174338
+              </a>
+              </p>
             </div>
-            <a href="#">Quejas y sugerencias</a>
-            <a href="https://maps.app.goo.gl/wQbEzVzrztbSPtiu8" target="_blank" rel="noopener noreferrer">
+            <a
+              className='qw'
+              href="#"
+
+            >Quejas y sugerencias</a>
+            <a
+              className='qw'
+              href="https://maps.app.goo.gl/wQbEzVzrztbSPtiu8"
+              target="_blank"
+              rel="noopener noreferrer"
+
+            >
               <FaMapMarkerAlt /> Ver ubicación
             </a>
           </div>
